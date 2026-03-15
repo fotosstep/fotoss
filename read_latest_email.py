@@ -75,7 +75,7 @@ def get_latest_email(service):
         body = msg.get('snippet', '')
     print('Subject:', subject)
     print('From:', from_header)
-    print('Body preview:', body[:200])
+    print('Body:', body)
 
 if __name__ == '__main__':
     service = get_service()
